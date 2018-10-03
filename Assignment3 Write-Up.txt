@@ -17,4 +17,4 @@ To execute my program you can either use the example format given in the assignm
 ./mic1 prom.dat Assignment3.obj 0 2048
 
 or you could use my slightly more convenient makefile by typing 
-make
+make driver
