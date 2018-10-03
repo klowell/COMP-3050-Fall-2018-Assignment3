@@ -19,6 +19,7 @@ P2:
 	ADDD c1:		; Increments result address for next iteration
 	STOD raddr:		; Stores address for next result
 	JUMP LOOP:		; Repeats process
+
 FIB:	
 	LODL 1			; Loads argument from stack into accumulator
 	JZER FIBZER:	; If argument is 0, returns 0;									; if (arg == 0) return 0
@@ -35,7 +36,7 @@ FIB:
 CLEAR:	
 	INSP 1			; Removes latest argument from stack
 	ADDL 0			; Adds fib(arg - 1) and fib(arg - 2)							; result = temp1 + temp2
-	INSP 1			; Clears arguments from stack
+	INSP 2			; Clears arguments from stack
 	RETN			; Returns back to loop											; return result;
 
 FIBZER:	
