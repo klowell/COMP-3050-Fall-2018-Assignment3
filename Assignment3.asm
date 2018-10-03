@@ -36,6 +36,7 @@ FIB:
 CLEAR: 
 	INSP 1			; Removes latest argument from stack
 	ADDL 0			; Adds fib(arg - 1) and fib(arg - 2)							; result = temp1 + temp2
+	INSP 2			; Clears arguments from stack
 	RETN			; Returns back to loop											; return result;
 
 FIBZER:	
