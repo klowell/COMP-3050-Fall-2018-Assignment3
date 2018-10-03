@@ -17,7 +17,7 @@ P2:
 	LODD raddr:		; Loads address for result
 	POPI			; Stores result into memory array								; results[PasCnt - i] = result
 	ADDD c1:		; Increments result address for next iteration
-	STOD faddr:		; Stores address for next result
+	STOD raddr:		; Stores address for next result
 	JUMP LOOP:		; Repeats process
 
 FIB:
