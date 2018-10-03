@@ -1,0 +1,20 @@
+Kristopher Lowell
+kristopher_lowell@student.uml.edu
+COMP - 3050 - 201
+Fall 2018
+10/3/2018
+
+Assignment 3 Write-Up
+
+I'm fairly certain that I completed this assignment 100% of the way.  My main hurdle
+in this assignment was actually obtaining the files from the MIC1 emulator that 
+Prof. Moloney was nice enough to provide.  The other hurdle is that for some reason I
+can no longer delete directories in my personal directory. Nevertheless, I've just been
+moving all my trash files and folders into thusly named folder "trash". 
+
+To execute my program you can either use the example format given in the assignment, 
+./masm < Assignment3.asm > Assignment3.obj
+./mic1 prom.dat Assignment3.obj 0 2048
+
+or you could use my slightly more convenient makefile by typing 
+make driver
